@@ -1,0 +1,94 @@
+body,
+html {
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  background: url(julian-header-image.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  text-align: center;
+}
+
+.top-header {
+  height: 72px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px 15px 0px 15px;
+
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  max-width: 137px;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2em;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 40vh;
+  max-width: 1170px;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: "Poppins", sans-serif;
+  margin: 14px;
+  text-align: center;
+}
+
+span {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+p {
+  padding-top: 10px;
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+
+@media (min-width: 768px) {
+  .top-header {
+    width: 750px;
+    height: 82px;
+  }
+
+  .header-logo {
+    max-width: 167px;
+  }
+
+  h1 {
+    font-size: 4em;
+  }
+}
+
+@media (min-width: 992px) {
+  .top-header {
+    width: 970px;
+    height: 92px;
+  }
+
+  .header-logo {
+    max-width: 192px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .top-header {
+    width: 1170px;
+    height: 102px;
+  }
+
+  .header-logo {
+    max-width: 217px;
+  }
+}
